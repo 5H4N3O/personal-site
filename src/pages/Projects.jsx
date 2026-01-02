@@ -4,7 +4,7 @@ export default function Projects() {
       <h2>Projects</h2>
       <p>Show projects here with links later.</p>
       <ul>
-        <li>Project 1</li>
+        <li>Tip Calculator Site</li>
         <li>Project 2</li>
         <li>Project 3</li>
       </ul>
