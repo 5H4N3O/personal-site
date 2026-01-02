@@ -1,15 +1,13 @@
-name: Deploy to GitHub Pages (single-job)
+name: Deploy React + Vite to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ main ]
-
-permissions:
-  contents: write
-  pages: write
+    branches: 
+      - main
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
