@@ -9,7 +9,7 @@ import './styles.css'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/personal-site">
       <div className="app">
         <Header />
         <main>
